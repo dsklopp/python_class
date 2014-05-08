@@ -2,7 +2,7 @@
 # DESCRIPTION: Reimplementation of six.pl in Python and without obfuscation
 
 
-def bottles_of_beer_on_the_wall(count):
+def print_bottles_of_beer_on_the_wall(count):
    for bottle in reversed(range(1,count)):
       if bottle > 2: 
          print(str(bottle) + " bottles of beer on the wall, " + str(bottle) + " bottles of beer!")
@@ -18,4 +18,4 @@ def bottles_of_beer_on_the_wall(count):
          print("No bottles of beer on the wall!")
       print("")
 
-bottles_of_beer_on_the_wall(100)
+print_bottles_of_beer_on_the_wall(100)
